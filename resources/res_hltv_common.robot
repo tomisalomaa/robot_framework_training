@@ -2,6 +2,7 @@
 Library  Browser
 
 *** Variables ***
+${URL}  https://www.hltv.org/
 
 *** Keywords ***
 Allow Necessary Cookies

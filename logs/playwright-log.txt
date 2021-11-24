@@ -1,192 +1,27 @@
-{"level":30,"time":"2021-11-24T12:52:24.647Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Listening on 64596"}
-{"level":30,"time":"2021-11-24T12:52:24.729Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"currentBrowser: undefined"}
-{"level":30,"time":"2021-11-24T12:52:25.008Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:25.240Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Video path: undefined"}
-{"level":30,"time":"2021-11-24T12:52:25.240Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:26.381Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@id=\"CybotCookiebotDialog\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:27.545Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//a[@id=\"CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:27.741Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//i[@class=\"fa fa-caret-down\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:27.991Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //span[contains(@class, \"userTheme-auto selected\")] in page."}
-{"level":30,"time":"2021-11-24T12:52:28.007Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"popupsettings\"]/div[2]/span[2]/span[contains(text(), \"Night\")] in page."}
-{"level":30,"time":"2021-11-24T12:52:28.062Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //span[contains(@class, \"userTheme-day selected\")] in page."}
-================= Original suppressed error =================
-locator.waitFor: Timeout 100ms exceeded.
-=========================== logs ===========================
-waiting for selector "//span[contains(@class, "userTheme-day selected")]"
-============================================================
-    at c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:24062:50
-    at step (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23911:23)
-    at Object.next (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23892:53)
-    at fulfilled (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23883:58) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2021-11-24T12:52:28.257Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //span[contains(@class, \"userTheme-auto selected\")] in page."}
-================= Original suppressed error =================
-locator.waitFor: Timeout 100ms exceeded.
-=========================== logs ===========================
-waiting for selector "//span[contains(@class, "userTheme-auto selected")]"
-============================================================
-    at c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:24062:50
-    at step (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23911:23)
-    at Object.next (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23892:53)
-    at fulfilled (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23883:58) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2021-11-24T12:52:28.360Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //span[contains(@class, \"userTheme-night selected\")] in page."}
-{"level":30,"time":"2021-11-24T12:52:28.521Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //span[contains(@class, \"userTheme-night selected\")] in page."}
-{"level":30,"time":"2021-11-24T12:52:28.531Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"popupsettings\"]/div[2]/span[2]/span[contains(text(), \"Day\")] in page."}
-{"level":30,"time":"2021-11-24T12:52:28.569Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //span[contains(@class, \"userTheme-night selected\")] in page."}
-================= Original suppressed error =================
-locator.waitFor: Timeout 100ms exceeded.
-=========================== logs ===========================
-waiting for selector "//span[contains(@class, "userTheme-night selected")]"
-============================================================
-    at c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:24062:50
-    at step (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23911:23)
-    at Object.next (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23892:53)
-    at fulfilled (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23883:58) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2021-11-24T12:52:28.691Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //span[contains(@class, \"userTheme-auto selected\")] in page."}
-================= Original suppressed error =================
-locator.waitFor: Timeout 100ms exceeded.
-=========================== logs ===========================
-waiting for selector "//span[contains(@class, "userTheme-auto selected")]"
-============================================================
-    at c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:24062:50
-    at step (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23911:23)
-    at Object.next (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23892:53)
-    at fulfilled (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23883:58) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2021-11-24T12:52:28.798Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //span[contains(@class, \"userTheme-day selected\")] in page."}
-{"level":30,"time":"2021-11-24T12:52:29.005Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //span[contains(@class, \"userTheme-day selected\")] in page."}
-{"level":30,"time":"2021-11-24T12:52:29.017Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"popupsettings\"]/div[2]/span[2]/span[contains(text(), \"Auto\")] in page."}
-{"level":30,"time":"2021-11-24T12:52:29.207Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //span[contains(@class, \"userTheme-day selected\")] in page."}
-================= Original suppressed error =================
-locator.waitFor: Timeout 100ms exceeded.
-=========================== logs ===========================
-waiting for selector "//span[contains(@class, "userTheme-day selected")]"
-============================================================
-    at c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:24062:50
-    at step (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23911:23)
-    at Object.next (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23892:53)
-    at fulfilled (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23883:58) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2021-11-24T12:52:29.309Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //span[contains(@class, \"userTheme-night selected\")] in page."}
-================= Original suppressed error =================
-locator.waitFor: Timeout 100ms exceeded.
-=========================== logs ===========================
-waiting for selector "//span[contains(@class, "userTheme-night selected")]"
-============================================================
-    at c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:24062:50
-    at step (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23911:23)
-    at Object.next (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23892:53)
-    at fulfilled (c:\users\tsa\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:23883:58) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2021-11-24T12:52:29.411Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //span[contains(@class, \"userTheme-auto selected\")] in page."}
-{"level":30,"time":"2021-11-24T12:52:29.575Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:29.576Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-24T12:52:29.576Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:29.583Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:29.583Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-24T12:52:29.583Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:29.596Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-11-24T12:52:29.599Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:29.667Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Video path: undefined"}
-{"level":30,"time":"2021-11-24T12:52:29.667Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:30.898Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@id=\"CybotCookiebotDialog\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:32.058Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//a[@id=\"CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:32.254Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"rightCol\"]/aside/div[@class=\"top-border-hide\"]/a[1] in page."}
-{"level":30,"time":"2021-11-24T12:52:32.350Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@class=\"rightCol\"]/aside/div[@class=\"top-border-hide\"]/a[1]//div[@class=\"teamrow\"][1]//span[@class=\"team\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:32.388Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //div[@class=\"rightCol\"]/aside/div[@class=\"top-border-hide\"]/a[1]//div[@class=\"teamrow\"][1]//span[@class=\"team\"] containing Vitality"}
-{"level":30,"time":"2021-11-24T12:52:32.390Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@class=\"rightCol\"]/aside/div[@class=\"top-border-hide\"]/a[1]//div[@class=\"teamrow\"][2]//span[@class=\"team\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:32.420Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //div[@class=\"rightCol\"]/aside/div[@class=\"top-border-hide\"]/a[1]//div[@class=\"teamrow\"][2]//span[@class=\"team\"] containing Liquid"}
-{"level":30,"time":"2021-11-24T12:52:32.422Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"rightCol\"]/aside/div[@class=\"top-border-hide\"]/a[1] in page."}
-{"level":30,"time":"2021-11-24T12:52:32.600Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@class=\"team1-gradient\"]//div[@class=\"teamName\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:33.566Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //div[@class=\"team1-gradient\"]//div[@class=\"teamName\"] containing Vitality"}
-{"level":30,"time":"2021-11-24T12:52:33.569Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@class=\"team2-gradient\"]//div[@class=\"teamName\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:33.659Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //div[@class=\"team2-gradient\"]//div[@class=\"teamName\"] containing Liquid"}
-{"level":30,"time":"2021-11-24T12:52:33.856Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:33.856Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-24T12:52:33.856Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:33.866Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:33.866Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-24T12:52:33.866Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:33.886Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-11-24T12:52:33.890Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:33.960Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Video path: undefined"}
-{"level":30,"time":"2021-11-24T12:52:33.960Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:35.088Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@id=\"CybotCookiebotDialog\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:36.165Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//a[@id=\"CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:36.354Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"right2Col\"]/aside[1] in page."}
-{"level":30,"time":"2021-11-24T12:52:36.454Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@class=\"right2Col\"]/aside[1]/div[@class=\"col-box-con\"]//a[1]/span[@title] in page."}
-{"level":30,"time":"2021-11-24T12:52:36.472Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //div[@class=\"right2Col\"]/aside[1]/div[@class=\"col-box-con\"]//a[1]/span[@title] containing liquid done?"}
-{"level":30,"time":"2021-11-24T12:52:36.474Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"right2Col\"]/aside[1]/div[@class=\"col-box-con\"]//a[1] in page."}
-{"level":30,"time":"2021-11-24T12:52:36.724Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@class=\"topic\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:37.179Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //div[@class=\"topic\"] containing liquid done?"}
-{"level":30,"time":"2021-11-24T12:52:37.303Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:37.303Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-24T12:52:37.303Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:37.310Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:37.310Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-24T12:52:37.310Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:37.320Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-11-24T12:52:37.322Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:37.390Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Video path: undefined"}
-{"level":30,"time":"2021-11-24T12:52:37.390Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:38.506Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@id=\"CybotCookiebotDialog\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:39.575Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//a[@id=\"CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:39.770Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"right2Col\"]/aside[1] in page."}
-{"level":30,"time":"2021-11-24T12:52:39.872Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is disbaled, return Locator: xpath=//div[@class=\"right2Col\"]/aside[1]//div[@class=\"pro-mode-toggle promode-disabled\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:39.886Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is disbaled, return Locator: xpath=//div[@class=\"right2Col\"]/aside[1]//div[@class=\"pro-mode-toggle promode-enabled\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:39.894Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"right2Col\"]/aside[1]//div[@class=\"pro-mode-toggle promode-disabled\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:39.966Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"right2Col\"]/aside[1]//div[@class=\"pro-mode-toggle promode-disabled\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:40.052Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is disbaled, return Locator: xpath=//div[@class=\"right2Col\"]/aside[1]//div[@class=\"pro-mode-toggle promode-disabled\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:40.059Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is disbaled, return Locator: xpath=//div[@class=\"right2Col\"]/aside[1]//div[@class=\"pro-mode-toggle promode-enabled\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:40.069Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"right2Col\"]/aside[1]//div[@class=\"pro-mode-toggle promode-enabled\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:40.235Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"right2Col\"]/aside[1] in page."}
-{"level":30,"time":"2021-11-24T12:52:40.334Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@class=\"right2Col\"]//div[@class=\"activitylist\"]/a[contains(@href, \"/matches\")][1]/span in page."}
-{"level":30,"time":"2021-11-24T12:52:40.347Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //div[@class=\"right2Col\"]//div[@class=\"activitylist\"]/a[contains(@href, \"/matches\")][1]/span containing Vitality vs Liquid"}
-{"level":30,"time":"2021-11-24T12:52:40.350Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"right2Col\"]//div[@class=\"activitylist\"]/a[contains(@href, \"/matches\")][1] in page."}
-{"level":30,"time":"2021-11-24T12:52:40.485Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@class=\"team1-gradient\"]//div[@class=\"teamName\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:41.395Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //div[@class=\"team1-gradient\"]//div[@class=\"teamName\"] containing Vitality"}
-{"level":30,"time":"2021-11-24T12:52:41.398Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@class=\"team2-gradient\"]//div[@class=\"teamName\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:41.499Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //div[@class=\"team2-gradient\"]//div[@class=\"teamName\"] containing Liquid"}
-{"level":30,"time":"2021-11-24T12:52:41.675Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:41.675Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-24T12:52:41.675Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:41.681Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:41.681Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-24T12:52:41.681Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:41.692Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-11-24T12:52:41.695Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:41.759Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Video path: undefined"}
-{"level":30,"time":"2021-11-24T12:52:41.759Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:43.041Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@id=\"CybotCookiebotDialog\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:44.147Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//a[@id=\"CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:44.335Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(),\"LATEST REPLAYS\")]/../.. in page."}
-{"level":30,"time":"2021-11-24T12:52:44.454Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(),\"LATEST REPLAYS\")]/../..//a[@class=\"col-box a-reset\"][last()] in page."}
-{"level":30,"time":"2021-11-24T12:52:44.549Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //a[contains(text(), \"LATEST REPLAYS\")]/../..//a[contains(@href, \"/matches\")][last()]//div[@class=\"teamrow\"][1]//span in page."}
-{"level":30,"time":"2021-11-24T12:52:44.566Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //a[contains(text(), \"LATEST REPLAYS\")]/../..//a[contains(@href, \"/matches\")][last()]//div[@class=\"teamrow\"][1]//span containing DBL PONEY"}
-{"level":30,"time":"2021-11-24T12:52:44.568Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //a[contains(text(), \"LATEST REPLAYS\")]/../..//a[contains(@href, \"/matches\")][last()]//div[@class=\"teamrow\"][2]//span in page."}
-{"level":30,"time":"2021-11-24T12:52:44.579Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //a[contains(text(), \"LATEST REPLAYS\")]/../..//a[contains(@href, \"/matches\")][last()]//div[@class=\"teamrow\"][2]//span containing Wisla Krakow"}
-{"level":30,"time":"2021-11-24T12:52:44.581Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //a[contains(text(), \"LATEST REPLAYS\")]/../..//a[contains(@href, \"/matches\")][last()] in page."}
-{"level":30,"time":"2021-11-24T12:52:44.741Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@class=\"team1-gradient\"]//div[@class=\"teamName\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:45.437Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //div[@class=\"team1-gradient\"]//div[@class=\"teamName\"] containing DBL PONEY"}
-{"level":30,"time":"2021-11-24T12:52:45.440Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@class=\"team2-gradient\"]//div[@class=\"teamName\"] in page."}
-{"level":30,"time":"2021-11-24T12:52:45.553Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Retrieved text for element //div[@class=\"team2-gradient\"]//div[@class=\"teamName\"] containing Wisla Krakow"}
-{"level":30,"time":"2021-11-24T12:52:45.691Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:45.691Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-24T12:52:45.691Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
-{"level":30,"time":"2021-11-24T12:52:45.714Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
-{"level":30,"time":"2021-11-24T12:52:45.714Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-24T12:52:45.714Z","pid":27532,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
+{"level":30,"time":"2021-11-24T21:27:10.443Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Listening on 55287"}
+{"level":30,"time":"2021-11-24T21:27:10.594Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"currentBrowser: undefined"}
+{"level":30,"time":"2021-11-24T21:27:10.861Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
+{"level":30,"time":"2021-11-24T21:27:11.091Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Video path: undefined"}
+{"level":30,"time":"2021-11-24T21:27:11.091Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
+{"level":30,"time":"2021-11-24T21:27:12.282Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with //div[@id=\"CybotCookiebotDialog\"] in page."}
+{"level":30,"time":"2021-11-24T21:27:13.496Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//a[@id=\"CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection\"] in page."}
+{"level":30,"time":"2021-11-24T21:27:13.688Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"navsignin\"] in page."}
+{"level":30,"time":"2021-11-24T21:27:13.770Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"loginpopup\"]//input[@name=\"username\"] in page."}
+{"level":30,"time":"2021-11-24T21:27:13.781Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"loginpopup\"]//input[@name=\"password\"] in page."}
+{"level":30,"time":"2021-11-24T21:27:13.799Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"loginpopup\"]//input[@name=\"password\"] in page."}
+{"level":30,"time":"2021-11-24T21:27:13.818Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Retrieved attribute for element xpath=//div[@id=\"loginpopup\"]//input[@name=\"password\"] containing password"}
+{"level":30,"time":"2021-11-24T21:27:13.820Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"loginpopup\"]//input[@name=\"username\"] in page."}
+{"level":30,"time":"2021-11-24T21:27:13.873Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"unparsed args: e => document.activeElement === e, xpath=//div[@id=\"loginpopup\"]//input[@name=\"username\"], {\"timeout\": 100}"}
+{"level":30,"time":"2021-11-24T21:27:13.874Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"loginpopup\"]//input[@name=\"username\"] in page."}
+{"level":30,"time":"2021-11-24T21:27:13.888Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"loginpopup\"]//input[@name=\"username\"] in page."}
+{"level":30,"time":"2021-11-24T21:27:13.905Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"loginpopup\"]//input[@name=\"password\"] in page."}
+{"level":30,"time":"2021-11-24T21:27:13.983Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"unparsed args: e => document.activeElement === e, xpath=//div[@id=\"loginpopup\"]//input[@name=\"password\"], {\"timeout\": 100}"}
+{"level":30,"time":"2021-11-24T21:27:13.984Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"loginpopup\"]//input[@name=\"password\"] in page."}
+{"level":30,"time":"2021-11-24T21:27:13.999Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"loginpopup\"]//input[@name=\"password\"] in page."}
+{"level":30,"time":"2021-11-24T21:27:14.015Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"loginpopup\"]/form in page."}
+{"level":30,"time":"2021-11-24T21:27:14.356Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
+{"level":30,"time":"2021-11-24T21:27:14.356Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Changing current active page"}
+{"level":30,"time":"2021-11-24T21:27:14.356Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
+{"level":30,"time":"2021-11-24T21:27:14.378Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Changed active context"}
+{"level":30,"time":"2021-11-24T21:27:14.378Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Changing current active page"}
+{"level":30,"time":"2021-11-24T21:27:14.378Z","pid":17288,"hostname":"CIA-Surveilance-Server","msg":"Changed active page"}
