@@ -1,4 +1,5 @@
 *** Variables ***
+# These are found in use with hltv_main_page_nav.robot
 ${themeMenu}  //i[@class="fa fa-caret-down"]
 ${latestMatch}  //div[@class="top-border-hide"]/a[1]
 ${latestTeam1}  //div[@class="rightCol"]/aside/div[@class="top-border-hide"]/a[1]//div[@class="teamrow"][1]//span[@class="team"]
@@ -23,3 +24,9 @@ ${userThemeNightSelected}  //span[contains(@class, "userTheme-night selected")]
 ${userThemeNight}  //*[@id="popupsettings"]/div[2]/span[2]/span[contains(text(), "Night")]
 ${userThemeDay}  //*[@id="popupsettings"]/div[2]/span[2]/span[contains(text(), "Day")]
 ${userThemeAuto}  //*[@id="popupsettings"]/div[2]/span[2]/span[contains(text(), "Auto")]
+
+# These are found in use with hltv_sign_in_robot
+${userNameTextField}  //div[@id="loginpopup"]//input[@name="username"]
+${passTextField}  //div[@id="loginpopup"]//input[@name="password"]
+${loginPopup}  //*[@id="loginpopup"]/form
+${signInPopup}  //div[@class="navsignin"]
