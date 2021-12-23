@@ -9,3 +9,4 @@ ${city}             Vienna
 ${address}          Vienna Street
 ${zip}              1234
 ${phone}            001122334455
+${webshop_url}      http://demowebshop.tricentis.com/

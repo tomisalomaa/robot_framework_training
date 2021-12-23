@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation  Registering a test user to demo platform
 Library  Browser
+Resource  ../../resources/common-keywords/common_keywords.robot
 Resource  ../../resources/common-variables/user_info.robot
 Test Teardown  Close Webshop
 
@@ -8,8 +9,7 @@ Test Teardown  Close Webshop
 
 *** Test Cases ***
 Register new user
-    Open Browser
-    New Page    http://demowebshop.tricentis.com/
+    New Page    ${webshop_url}
     Click   //a[@class = "ico-register"]
     Check Checkbox  id=gender-${gender}
     Fill Text   id=FirstName  ${first_name}
@@ -26,11 +26,3 @@ Register new user
     ...  ELSE IF  ${reg_result}  Log  User already exists
     ...  ELSE  Log  Something went wrong with the registration process, no success and no error message.
     Take Screenshot
-
-*** Keywords ***
-Close Webshop
-    Go To  http://demowebshop.tricentis.com/
-    ${logged_in}  Get Element State  //a[@class="ico-logout"]  visible
-    Run Keyword If  ${logged_in}
-    ...  Click  //a[@class="ico-logout"]
-    Close Browser
