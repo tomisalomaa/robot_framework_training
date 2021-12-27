@@ -8,7 +8,6 @@ Test Teardown  Close Webshop
 
 *** Test Cases ***
 Place products to cart complete purchase
-    Open Browser
     New Page  ${webshop_url}
     Log In
     Add Products And Navigate To Cart
